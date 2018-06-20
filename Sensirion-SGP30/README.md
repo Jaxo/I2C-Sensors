@@ -1,9 +1,10 @@
-#History
+# Sensirion SGP30 CO2eq and TVOC Gas Sensor
+
+## History
 
 I'm enjoying Sensirion's hardware, but I must say
 I was a bit disappointed at reading the Sensirion's document
 *SGP Driver Integration Guide* -- the software implementation.
-
 
 The more I was reading, the more nervous I got.
 IMPLEMENT, IMPLEMENT, sgp_measure_iaq_blocking_read (what's that?).
@@ -30,7 +31,7 @@ the SGP30 datasheet and that it might probably ease for adding new features.
 the code
 - running on Linux, C++, open-source under a permissive MIT License
 
-#Instructions For Use
+## Instructions For Use
 
 - download the package
 - enter the command:
@@ -40,7 +41,7 @@ the code
 You're done.  You can stop reading from here if, like me, you are impatient
 to put at work this nice little SGP30 device.
 
-#More details on the internals (going further for your own needs)
+## More details on the internals (going further for your own needs)
 
 "sgp30Device" is the API, "sgp30Test" is a full, complete example of
 a working implementation -- sorry if it takes more than 400 lines.
